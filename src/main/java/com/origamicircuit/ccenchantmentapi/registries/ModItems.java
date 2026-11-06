@@ -31,6 +31,7 @@ public class ModItems {
         public static void addToCreativeTab(BuildCreativeModeTabContentsEvent event) {
                 if (event.getTabKey().location().equals(
                                 new ResourceLocation("computercraft", "tab"))) {
+                        event.accept(ModItems.ANALYZER.get());
                 }
         }
 }

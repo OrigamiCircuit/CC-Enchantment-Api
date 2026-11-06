@@ -103,7 +103,7 @@ public class ComputerAPI implements ILuaAPI {
     }
 
     @LuaFunction
-    public boolean isBook(String id) {
+    public boolean isBookable(String id) {
         return EnchantmentAPI.isBookable(id);
     }
 
