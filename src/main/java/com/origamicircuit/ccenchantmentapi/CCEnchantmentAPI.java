@@ -7,7 +7,6 @@ import com.origamicircuit.ccenchantmentapi.registries.ModBlocks;
 import com.origamicircuit.ccenchantmentapi.registries.ModItems;
 import com.origamicircuit.ccenchantmentapi.registries.ModTurtleUpgrades;
 
-import dan200.computercraft.api.ComputerCraftAPI;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -24,7 +23,7 @@ public class CCEnchantmentAPI {
         ModBlocks.register(MOD_EVENT_BUS);
         ModBlockEntities.register(MOD_EVENT_BUS);
         MOD_EVENT_BUS.addListener(ModTurtleUpgrades::register);
-        ComputerCraftAPI.registerGenericSource(new AnalyzerBlockPeripheral());
+        AnalyzerBlockPeripheral.register();
         ComputerAPI.register();
     }
 }

@@ -5,11 +5,18 @@ import com.origamicircuit.ccenchantmentapi.CCEnchantmentAPI;
 import com.origamicircuit.ccenchantmentapi.api.EnchantmentAPI;
 import com.origamicircuit.ccenchantmentapi.blockentities.AnalyzerBlockEntity;
 
+import dan200.computercraft.api.ComputerCraftAPI;
 import dan200.computercraft.api.lua.LuaFunction;
 import dan200.computercraft.api.peripheral.GenericPeripheral;
 import java.util.List;
 
 public class AnalyzerBlockPeripheral implements GenericPeripheral {
+    private AnalyzerBlockPeripheral() {
+    }
+
+    public static void register() {
+        ComputerCraftAPI.registerGenericSource(new AnalyzerBlockPeripheral());
+    }
 
     @Override
     public String id() {
