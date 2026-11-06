@@ -1,0 +1,8 @@
+
+{
+  "variants": {
+    "": {
+      "model": "cc_enchantment_api:block/analyzer"
+    }
+  }
+}

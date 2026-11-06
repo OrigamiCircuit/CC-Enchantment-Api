@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "dla",
+        "ror",
+        "ald"
+    ],
+    "key": {
+        "d": {
+            "item": "minecraft:diamond"
+        },
+        "l": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "a": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "r": {
+            "item": "minecraft:redstone"
+        },
+        "o": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "cc_enchantment_api:analyzer",
+        "count": 1
+    }
+}

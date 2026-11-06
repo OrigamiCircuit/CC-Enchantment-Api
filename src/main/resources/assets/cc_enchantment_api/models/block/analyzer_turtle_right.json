@@ -1,0 +1,39 @@
+{
+    "textures": {
+        "face": "cc_enchantment_api:block/analyzer",
+        "edge": "cc_enchantment_api:block/analyzer_edge",
+        "particle": "cc_enchantment_api:block/analyzer"
+    },
+    "elements": [
+        {
+            "from": [14, 2, 2],
+            "to": [15, 14, 14],
+            "faces": {
+                "east": {
+                    "uv": [0, 0, 16, 16],
+                    "texture": "#face"
+                },
+                "west": {
+                    "uv": [0, 0, 16, 16],
+                    "texture": "#face"
+                },
+                "north": {
+                    "uv": [0, 0, 1, 16],
+                    "texture": "#edge"
+                },
+                "south": {
+                    "uv": [0, 0, 1, 16],
+                    "texture": "#edge"
+                },
+                "up": {
+                    "uv": [0, 0, 1, 16],
+                    "texture": "#edge"
+                },
+                "down": {
+                    "uv": [0, 0, 1, 16],
+                    "texture": "#edge"
+                }
+            }
+        }
+    ]
+}

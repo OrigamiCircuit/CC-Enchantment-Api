@@ -1,0 +1,7 @@
+
+{
+  "block.cc_enchantment_api.analyzer": "Enchantment Analyzer",
+  "tooltip.cc_enchantment_api.analyzer": "Extends the Enchantment API by allowing item-targeted functions to operate directly on the item stored in its inventory, rather than requiring an item identifier. Supports item-specific data, including NBT.",
+  "upgrade.cc_enchantment_api.analyzer.adjective": "Enchantment Analyzing"
+}
+
